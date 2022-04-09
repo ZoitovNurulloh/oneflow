@@ -11,7 +11,6 @@
   font-weight: 700;
 }
 
-
 /* General codes */
 body {
   font-family: 'Roboto', sans-serif;
@@ -21,4 +20,132 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  width: 1296px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  margin: 23px 400px 26px 48px;
+}
+
+.header-link__items ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-link__item a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #013A4C;
+  text-decoration: none;
+  margin: 0 31px 0 31px;
+}
+
+.header-link__item a:hover {
+  text-decoration: underline;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+}
+
+.header-login__left {
+  background: #FFD063;
+  border: 1px solid #FFD063;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #013A4C;
+  padding: 11px 17px;
+  margin-left: 34px;
+}
+
+.header-login__left:hover {
+  background-color: #fff;
+  color: #FFD063;
+}
+
+.header-login__right {
+  border: 1px solid #346170;
+  border-radius: 4px;
+  padding: 11px 17px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #013A4C;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.header-login__right:hover {
+  background-color: #013A4C;
+  color: #fff;
+}
+
+.header-login img {
+  margin-left: 50px;
+}
+
+/* Hero section */
+
+.hero-section {
+  background-image: url(../img/women.png);
+}
+
+.hero-section__title {
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 78px;
+  letter-spacing: 2px;
+  color: #013A4C;
+  padding-top: 210px;
+}
+
+.hero-section__subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.5px;
+  color: #013A4C;
+  padding: 31px 172px 17px 0;
+}
+
+.btn-left {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #013A4C;
+  padding: 15px 20px;
+  background: #FFD063;
+  border: 1px solid #FFD063;
+  border-radius: 4px;
+}
+
+.btn-right {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #013A4C;
+  border: 1px solid #013A4C;
+  border-radius: 4px;
+  padding: 15px 20px;
+  margin: 26px 0 312px 16px;
 }
